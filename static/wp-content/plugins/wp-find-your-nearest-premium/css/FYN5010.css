@@ -1,0 +1,45 @@
+/* 
+    Document   : newCascadeStyleSheet
+    Created on : 15-Dec-2012, 09:11:29
+    Author     : adam.sargant
+    Description:
+        Purpose of the stylesheet follows.
+*/
+.FYNtooltip {
+  color: #000000; outline: none;
+  cursor: help; text-decoration: none;
+  position: relative;
+}
+.FYNtooltip span {
+  margin-left: -999em;
+  position: absolute;
+}
+.FYNtooltip:hover span {
+  font-family: Calibri, Tahoma, Geneva, sans-serif;
+  position: absolute;
+  left: 1em;
+  top: 2em;
+  z-index: 99;
+  margin-left: 0;
+  width: 250px;
+}
+.FYNtooltip:hover img.helpicon {
+  border: 0;
+  margin: -10px 0 0 -55px;
+  float: left;
+  position: absolute;
+}
+.FYNtooltip:hover em {
+  font-family: Candara, Tahoma, Geneva, sans-serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  display: block;
+  padding: 0.2em 0 0.6em 0;
+}
+.FYNclassic { padding: 0.8em 1em; }
+.FYNcustom { padding: 0.5em 0.8em 0.8em 2em; }
+.FYNhelp { background: #9FDAEE; border: 1px solid #2BB0D7;	}
+* html a:hover { background: transparent; }
+
+#FYN_item_map img{max-width:none}
+#FYN_display_results_map img{max-width:none}
